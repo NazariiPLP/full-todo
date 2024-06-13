@@ -1,0 +1,10 @@
+POST http://localhost:5001/api/user/sign-in
+Content-Type: application/json
+
+{
+    "email":"john.doe@gmail.com",
+    "passwordHash": "qwerty1234",
+    "firstName": "John",
+    "lastName": "Doe",
+    "birthday": "1986-12-25"
+}
